@@ -1,18 +1,21 @@
-# .
+# Resume Editor
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a web-based resume editor built with Vue 3, Vite, and Element Plus. It allows you to create and edit your resume in a user-friendly interface, with a live preview.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+*   **Live Preview:** See your changes in real-time as you type.
+*   **Rich Text Editing:** Use a powerful editor to format your resume.
+*   **Component-Based:** Built with Vue components for easy customization.
+*   **State Management:** Uses Pinia for centralized state management.
+*   **Routing:** Uses Vue Router for navigation.
 
-## Type Support for `.vue` Imports in TS
+## Tech Stack
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+*   **Frontend:** [Vue 3](https://vuejs.org/), [Vite](https://vitejs.dev/), [Element Plus](https://element-plus.org/)
+*   **State Management:** [Pinia](https://pinia.vuejs.org/)
+*   **Routing:** [Vue Router](https://router.vuejs.org/)
+*   **Editor:** [Monaco Editor](https://microsoft.github.io/monaco-editor/)
 
 ## Project Setup
 
@@ -32,7 +35,7 @@ npm run dev
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint with [ESLint](https.eslint.org/)
 
 ```sh
 npm run lint
